@@ -1,11 +1,11 @@
 {
-  "players":[
+  "warriors":[
     {
       "id":1,
       "name":"Cyrox",
       "race":"Hothryx",
       "home":"Jundoban-1",
-      "type":"Assault",
+      "type":"assault",
       "stats":{
         "health":100,
         "attack":110,
@@ -18,7 +18,7 @@
       "name":"Kromaul",
       "race":"Eronuk",
       "home":"Muktobuku",
-      "type":"Juggernaut",
+      "type":"juggernaut",
       "stats":{
         "health":120,
         "attack":90,
@@ -31,7 +31,7 @@
       "name":"Granyl",
       "race":"Zyrak",
       "home":"Yunak",
-      "type":"Ranger",
+      "type":"ranger",
       "stats":{
         "health":105,
         "attack":95,
@@ -44,12 +44,25 @@
       "name":"Drohnyk",
       "race":"Typhanos",
       "home":"Rangox",
-      "type":"Mech",
+      "type":"mech",
       "stats":{
         "attack":110,
         "health":100,
         "stamina":100,
         "boost":0.6
+      }
+    },
+    {
+      "id":5,
+      "name":"Yivdox",
+      "race":"Hothryx",
+      "home":"Jundoban-1",
+      "type":"ranger",
+      "stats":{
+        "health":105,
+        "attack":95,
+        "stamina":110,
+        "boost":0.075
       }
     }
   ],
@@ -59,7 +72,7 @@
       "name":"NRZ-U8",
       "class":"gun",
       "position":"primary",
-      "type":"assault",
+      "types":["assault", "ranger"],
       "damage":5,
       "booster":{
         "stat":"attack",
@@ -71,7 +84,7 @@
       "name":"76-A",
       "class":"gun",
       "position":"secondary",
-      "type":"handgun",
+      "types":["assault", "ranger"],
       "damage":1.7,
       "booster":{
         "stat":"stamina",

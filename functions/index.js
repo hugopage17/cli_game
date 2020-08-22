@@ -18,6 +18,7 @@ exports.set_arsenal = (weapons, i, j) => {
   })
   const primary_weapon = primary_arr[i]
   const secondary_weapon = secondary_arr[j]
+
   return {
     primary_weapon:new Gun(primary_weapon),
     secondary_weapon:new Gun(secondary_weapon)
